@@ -1,0 +1,74 @@
+[
+  {
+    "eventName": "Dubai Meetup",
+    "eventDate": "Wed, 28 Aug",
+    "eventLink": "https://www.ministryoftesting.com/events/dubai-meetup",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/0xr9vsuoe8n09tzw39upy8avqsez/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a"
+  },
+  {
+    "eventName": "Glasgow Meetup",
+    "eventDate": "Wed, 28 Aug",
+    "eventLink": "https://www.ministryoftesting.com/events/glasgow-meetup",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/98tg7mvlh7yatyw1dduu9sucxy4n/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea"
+  },
+  {
+    "eventName": "Auckland Meetup",
+    "eventDate": "Wed, 4 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/auckland-meetup-3-sep-2024",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/vt0bahxydjpfpnl8zgt7rd3benke/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea"
+  },
+  {
+    "eventName": "This Week in Testing",
+    "eventDate": "Fri, 6 Sep",
+    "eventLink": "https://www.ministryoftesting.com/this-week-in-testings/this-week-in-testing-060924",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/s2w4uvtyzuhfsh5o2ptnm9oua28g/09e3f4223f83cdfd654e69ca7f59bedcb126ec29bcd4ab1882c04089310b381c"
+  },
+  {
+    "eventName": "Pre-TestBash meetup by the beach",
+    "eventDate": "Wed, 11 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/pre-testbash-meetup-by-the-beach",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/m20q698ncby15gazz2avh33cicdm/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a"
+  },
+  {
+    "eventName": "TestBash Brighton 2024",
+    "eventDate": "Thu, 12 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/testbash-brighton-2024",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/1mjl18ee9qd7jcb51eibrx90bfhe/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a"
+  },
+  {
+    "eventName": "Munich Meetup",
+    "eventDate": "Wed, 18 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/munich-meetup-18-sep-2024",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/nnj23n5takdjnl2w658lzwafmuxt/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a"
+  },
+  {
+    "eventName": "Manchester Meetup",
+    "eventDate": "Thu, 19 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/manchester-meetup-19-sep-2024",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/35w9i678hyfrgso99tb061u59fpi/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea"
+  },
+  {
+    "eventName": "Info Testing Unleashed: Elevating Software Testing and Compliance as Code",
+    "eventDate": "Wed, 25 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/info-testing-unleashed-elevating-software-testing-and-compliance-as-code",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/hbybrm9kx7n56drkcwjxyv9pntwy/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea"
+  },
+  {
+    "eventName": "Episode Five: TestBash Special",
+    "eventDate": "Thu, 26 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/episode-five-testbash-special",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/1dpeeu3did1qpqb3lesg13blaku6/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea"
+  },
+  {
+    "eventName": "Leuven Meetup",
+    "eventDate": "Thu, 26 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/leuven-meetup",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/5fn5scrbubzg1jxe4ie3qam8ubf9/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea"
+  },
+  {
+    "eventName": "Leeds Meetup",
+    "eventDate": "Thu, 26 Sep",
+    "eventLink": "https://www.ministryoftesting.com/events/leeds-meetup-26092024",
+    "eventImage": "https://d8iqbmvu05s9c.cloudfront.net/variants/hasal2ve6opgtd49p1e4iox1zt3l/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea"
+  }
+]
