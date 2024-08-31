@@ -62,7 +62,9 @@ async function downloadImage(imageUrl) {
 async function generatePoster() {
   try {
     const prompt = generatePrompt(events);
+    fs.writeFileSync('generated_prompt.txt', prompt);
     const imageUrl = await generatePosterImage(prompt);
+    fs.writeFileSync('generated_image_url.txt', imageUrl);
     await downloadImage(imageUrl);
   } catch (error) {
     console.error('Failed to generate poster:', error.message);
