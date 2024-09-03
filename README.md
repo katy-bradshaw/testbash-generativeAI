@@ -18,10 +18,12 @@ for JavaScript rums:
   - `npm install axios cheerio`
   - `npm install puppeteer fs`
   - `npm install axios dotenv`
+  - `npm install openai`
+- Navigate to the `scripts` folder to run the scripts
 - To scrape the website, run the script: `node scrapeEvents.js`
-- To generate an image based on the data scarped, run the script: `node generateImage.js`
+- To generate an image based on the data scraped, run the script: `node generateImage.js`
 
-Note: DALL-E doesn't currently have it's API exposed to the public, you need to pay for access but the script `generateDalleImage.js` is an example of what that could look like if you had access.
+Note: DALL-E doesn't currently have it's API exposed to the public, you need to pay for access to it's API key. 
 
 ## Python Specific Imformation
 
@@ -35,17 +37,16 @@ Note: DALL-E doesn't currently have it's API exposed to the public, you need to 
 
 for Python runs:
 
-- If you haven't already, make sure you have the required packaged installed:
+- If you haven't already, make sure you have the required packaged installed via a virtual env:
 
 ```py
-    python3 -m venv testbash-generativeAI
-    testbash-generativeAI/bin/pip install beautifulsoup4
-    testbash-generativeAI/bin/pip install requests
-    testbash-generativeAI/bin/pip install requests python-dotenv
+    python3 -m venv testbash-generativeAI/scripts
+    testbash-generativeAI/scripts/bin/pip install beautifulsoup4
+    testbash-generativeAI/scripts/bin/pip install requests
 ```
 
-- To scrape the website, run the script: `testbash-generativeAI/bin/python scrapeEvents.py`
-- To generate an image based on the data scarped, run the script: `testbash-generativeAI/bin/python generateAiImage.py`
+- To scrape the website, run the script: `testbash-generativeAI/scripts/bin/python scrapeEvents.py`
+- To generate an image based on the data scraped, run the script: `testbash-generativeAI/scripts/bin/python generateAiImage.py`
 
 ## Additional Information
 
