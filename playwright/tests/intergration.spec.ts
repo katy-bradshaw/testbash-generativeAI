@@ -1,62 +1,48 @@
 import { test, expect } from '@playwright/test';
-import nock from 'nock';
 import { execSync } from 'child_process';
 import fs from 'fs';
 import { describe } from 'node:test';
 
 describe('Integration tests for AI tool generation', () => {
-  const script = 'cd .. && cd scripts && node generateAiImage.js';
+  // Run the script that generates the prompt once for the tests
+  test.beforeAll(() => {
+    const script = 'cd .. && cd scripts && node scrapeEvents.js && node generateAiImage.js';
+    execSync(script);
+    // Image generate takes longer than 30 seconds default
+    test.setTimeout(60000);
+  });
 
   test('Prompt generation produces correct output', async () => {
-    // Run the script that generates the prompt
-    execSync(script);
-
     // Read the generated prompt
-    const generatedPrompt = fs.readFileSync('generated_prompt.txt', 'utf-8');
+    const generatedPrompt = fs.readFileSync('../generated_prompt.txt', 'utf-8');
 
     // Define the expected prompt
-    const expectedPromptStart = 'Create a visually appealing event poster with the following details:';
-    const expectedPromptEnd = 'The poster should have a professional design with appropriate imagery and text layout. The color scheme should match the theme of the events, and the text should be clearly readable.';
+    const expectedPromptStart = 'Create a visually appealing events poster using the following data:';
+    const expectedPromptEnd = 'The poster should have a professional design with appropriate imagery and text layout. The color scheme should match a theme and the text should be clearly readable.';
     const expectedPromptEvent = 'Event:'
     const expectedPromptDate = 'Date:'
     const expectedPromptImage = 'Image:'
 
     // Check if the generated prompt matches the expected prompt
     expect(generatedPrompt.trim()).toMatch(new RegExp(`^${expectedPromptStart}`));
-    expect(generatedPrompt.trim()).toMatch(new RegExp(`${expectedPromptEnd}$`));
+    expect(generatedPrompt.trim()).toMatch(new RegExp(`${expectedPromptEnd}$`,'m'));
     expect(generatedPrompt.trim()).toContain(expectedPromptEvent);
     expect(generatedPrompt.trim()).toContain(expectedPromptDate);
     expect(generatedPrompt.trim()).toContain(expectedPromptImage);
   });
 
   test('API interaction returns correct image URL', async () => {
-    // Mock the DALL-E API response
-    nock('https://api.openai.com')
-        .post('/v1/images/generations')
-        .reply(200, {
-            data: [{ url: 'http://example.com/mock_image.png' }]
-        });
-
-    // Run the script that generates the poster image
-    execSync(script);
+    // Define expected patterns
+    const expextedImageStart = "https://oaidalleapiprodscus.blob.core.windows.net/private/";
+    const openaiOrg = process.env.OPENAI_ORG;
 
     // Check if the image URL is correctly saved
-    const imageUrl = fs.readFileSync('../image_url.txt', 'utf-8');
-    expect(imageUrl.trim()).toBe('http://example.com/mock_image.png');
+    const imageUrl = fs.readFileSync('../generated_image_url.txt', 'utf-8');
+    expect(imageUrl.trim()).toMatch(new RegExp(`^${expextedImageStart}`));
+    expect(imageUrl.trim()).toContain(openaiOrg);
   });
 
   test('Image download saves the image correctly', async () => {
-  // Mock the image URL response
-  nock('openai.images.generate') // need to check what this url is when account in DALL-E set up
-      .get('/mock_image.png')
-      .reply(200, Buffer.from('mock image data'));
-
-  // Run the script that downloads the image
-  //execSync(script);
-
-  // While API script still not working run this script to manually generate image
-  execSync('cd .. && cd scripts && node generateImageManual.js');
-
   // Check if the image file is saved
   const fileExists = fs.existsSync('../eventsPoster.png');
   expect(fileExists).toBe(true);

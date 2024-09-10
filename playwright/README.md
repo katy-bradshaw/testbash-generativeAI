@@ -3,7 +3,6 @@
 ## Pre-requisiites
 
 - playwright
-- nock
 
 ## Getting Started
 
