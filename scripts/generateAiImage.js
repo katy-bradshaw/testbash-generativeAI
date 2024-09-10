@@ -17,7 +17,7 @@ const openai = new OpenAI({
 
 // Function to generate a descriptive prompt based on the events data
 function generatePrompt(events) {
-  let prompt = 'Create a visually appealing event poster with the following details:\n\n';
+  let prompt = 'Create a visually appealing events poster using the following data:\n\n';
   
   events.forEach(event => {
     prompt += `Event: ${event.eventName}\n`;
@@ -25,7 +25,7 @@ function generatePrompt(events) {
     prompt += `Image: ${event.eventImage}\n\n`;
   });
 
-  prompt += 'The poster should have a professional design with appropriate imagery and text layout. The color scheme should match the theme of the events, and the text should be clearly readable.';
+  prompt += 'The poster should have a professional design with appropriate imagery and text layout. The color scheme should match a theme and the text should be clearly readable.';
 
   return prompt;
 }
@@ -37,7 +37,7 @@ async function generatePosterImage(prompt) {
       model: "dall-e-3",
       prompt,
       n: 1,
-      size: "1024x1024"
+      //size: "1024x1024"
     });
 
     return response.data[0].url;
@@ -53,7 +53,7 @@ async function downloadImage(imageUrl) {
     const response = await axios.get(imageUrl, { responseType: 'arraybuffer' });
     const imageBuffer = Buffer.from(response.data, 'binary');
     fs.writeFileSync(`${rootDir}/eventsPoster.png`, imageBuffer);
-    console.log('Poster saved as poster.png');
+    console.log('Poster saved as eventsPoster.png');
   } catch (error) {
     console.error('Error downloading image:', error.message);
     throw error;
