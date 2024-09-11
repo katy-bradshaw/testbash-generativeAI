@@ -67,5 +67,4 @@ take these details and put them into a .env file for your scripts to be able to 
 
 ```js
 OPENAI_ORG=org-vY7tM3UIjTngQwOdvuh7sGoi
-OPENAI_API_KEY=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
 ```
