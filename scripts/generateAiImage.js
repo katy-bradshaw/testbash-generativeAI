@@ -11,7 +11,7 @@ const rootDir = path.resolve(__dirname, '../');
 
 // Set up the OpenAI API credentials from environment variables
 const openai = new OpenAI({
-  organization: "org-vY7tM3UIjTngQwOdvuh7sGoi",
+  organization: process.env.OPENAI_ORG,
   apiKey: process.env.OPENAI_API_KEY,
 });
 
@@ -37,7 +37,7 @@ async function generatePosterImage(prompt) {
       model: "dall-e-3",
       prompt,
       n: 1,
-      //size: "1024x1024"
+      size: "1024x1024"
     });
 
     return response.data[0].url;
