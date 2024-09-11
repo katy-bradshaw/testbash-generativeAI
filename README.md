@@ -18,8 +18,8 @@ for JavaScript rums:
   - `npm install axios cheerio`
   - `npm install puppeteer fs`
   - `npm install axios dotenv`
-- To scrape the website, run the script: `node scrapeEvents.js`
-- To generate an image based on the data scarped, run the script: `node generateImage.js`
+- To scrape the website, navigate into the `scripts` folder and run the script: `node scrapeEvents.js`
+- To generate an image based on the data scarped, from the same folder run the script: `node generateImage.js`
 
 Note: DALL-E doesn't currently have it's API exposed to the public, you need to pay for access but the script `generateDalleImage.js` is an example of what that could look like if you had access.
 
