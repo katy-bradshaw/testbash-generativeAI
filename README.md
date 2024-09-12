@@ -60,3 +60,9 @@ General steps to obtain API keys for OpenAI services:
     - On the API keys page, you can create a new API key by clicking the "Create new secret key" button.
 4. Save the Key:
     - Once the key is generated, copy it immediately and store it securely. You won't be able to view it again from the dashboard.
+
+## Test bash only detail
+
+Org ID= org-vY7tM3UIjTngQwOdvuh7sGoi
+
+c2stcHJvai00TkFmQlA2Z2tsOVQyRFNzYkdwZWhXdm9yZ0ZxLVdJX0RMSGlSSUpwb3M0U2JIV3Rqc1FyQVFHckNCU3lFbHZJZmtBemdHR1pUUVQzQmxia0ZKVnozZVhiX2U2UnlxSWdGN3pENkxlaGpYZDVEcHJxTjM5eWJXV2Y2Tm92YXRwa2sxSl9FNjRuUjlkWFJuTHNtcFhMUHh5RFFVWUE=
