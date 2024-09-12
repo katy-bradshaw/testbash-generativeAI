@@ -1,0 +1,51 @@
+Create a visually appealing event poster with the following details:
+
+Event: Auckland Meetup
+Date: Wed, 4 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/vt0bahxydjpfpnl8zgt7rd3benke/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea
+
+Event: This Week in Testing 060924
+Date: Fri, 6 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/s2w4uvtyzuhfsh5o2ptnm9oua28g/09e3f4223f83cdfd654e69ca7f59bedcb126ec29bcd4ab1882c04089310b381c
+
+Event: Pre-TestBash meetup by the beach
+Date: Wed, 11 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/m20q698ncby15gazz2avh33cicdm/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a
+
+Event: TestBash Brighton 2024
+Date: Thu, 12 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/1mjl18ee9qd7jcb51eibrx90bfhe/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a
+
+Event: This Week in Testing 130924
+Date: Fri, 13 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/2brygpjdbonco5nrc05vfb45tgvx/09e3f4223f83cdfd654e69ca7f59bedcb126ec29bcd4ab1882c04089310b381c
+
+Event: Munich Meetup
+Date: Wed, 18 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/nnj23n5takdjnl2w658lzwafmuxt/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a
+
+Event: Manchester Meetup
+Date: Thu, 19 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/35w9i678hyfrgso99tb061u59fpi/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea
+
+Event: Info Testing Unleashed: Elevating Software Testing and Compliance as Code
+Date: Wed, 25 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/hbybrm9kx7n56drkcwjxyv9pntwy/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea
+
+Event: Episode Five: TestBash Special
+Date: Thu, 26 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/1dpeeu3did1qpqb3lesg13blaku6/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea
+
+Event: Leuven Meetup
+Date: Thu, 26 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/5fn5scrbubzg1jxe4ie3qam8ubf9/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea
+
+Event: Leeds Meetup
+Date: Thu, 26 Sep
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/hasal2ve6opgtd49p1e4iox1zt3l/f499f70e9f61e0926e8ff5ddeff6c32730a55c19e6cb030f619b6dd083418bea
+
+Event: Test Exchange
+Date: Thu, 3 Oct
+Image: https://d8iqbmvu05s9c.cloudfront.net/variants/irwlp7on0dtv98b6drhq654pbf08/c9604c17e67efc3cbacd4964e2f4096a79793cdc6d0a88e2576bf11ff3a11a8a
+
+The poster should have a professional design with appropriate imagery and text layout. The color scheme should match the theme of the events, and the text should be clearly readable.
