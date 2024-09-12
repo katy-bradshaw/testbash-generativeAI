@@ -21,9 +21,9 @@ for JavaScript rums:
   - `npm install openai`
 - Navigate to the `scripts` folder to run the scripts
 - To scrape the website, run the script: `node scrapeEvents.js`
-- To generate an image based on the data scraped, run the script: `node generateImage.js`
+- To generate an image based on the data scraped, run the script: `node generateAiImage.js`
 
-Note: DALL-E doesn't currently have it's API exposed to the public, you need to pay for access to it's API key. 
+Note: DALL-E doesn't currently have it's API exposed to the public, you need to pay for access to it's API key.
 
 ## Python Specific Imformation
 
@@ -65,4 +65,5 @@ General steps to obtain API keys for OpenAI services:
 
 Org ID= org-vY7tM3UIjTngQwOdvuh7sGoi
 
+This is the API key, it is base64 encoded so you will need to decode it and add it to a .env file
 c2stcHJvai00TkFmQlA2Z2tsOVQyRFNzYkdwZWhXdm9yZ0ZxLVdJX0RMSGlSSUpwb3M0U2JIV3Rqc1FyQVFHckNCU3lFbHZJZmtBemdHR1pUUVQzQmxia0ZKVnozZVhiX2U2UnlxSWdGN3pENkxlaGpYZDVEcHJxTjM5eWJXV2Y2Tm92YXRwa2sxSl9FNjRuUjlkWFJuTHNtcFhMUHh5RFFVWUE=
